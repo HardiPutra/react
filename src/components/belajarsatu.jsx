@@ -1,8 +1,8 @@
-import React from "react";
+import {useState} from "react";
 
 function Belajarsatu() {
-  const [angka, setAngka] = React.useState(0);
-  const [isDone, setIsDone] = React.useState(false);
+  const [angka, setAngka] = useState(0);
+  const [isDone, setIsDone] = useState(false);
 
   const handleTambah = () => {
     if (angka >= 10) {
